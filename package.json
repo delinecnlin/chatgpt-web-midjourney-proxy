@@ -27,6 +27,7 @@
     "bootstrap": "pnpm install && pnpm run common:prepare",
     "common:cleanup": "rimraf node_modules && rimraf pnpm-lock.yaml",
     "common:prepare": "husky install"
+		"start": "vite preview"
   },
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.10",
